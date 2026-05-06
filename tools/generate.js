@@ -14,7 +14,7 @@ function toSlug(str) {
   if (!str) return 'unknown';
   return str.toString().trim().toLowerCase()
     .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')c:\KULIAH\MAGANG\Magang di Perhutani\Bandung news\tools\site-cleanup.js
+    .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
     .replace(/^-+|-+$/g, '');
 }
